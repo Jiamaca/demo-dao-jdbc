@@ -6,9 +6,10 @@ import model.entities.Department;
 import model.entities.Seller;
 
 public interface SellerDao {
-	void insert(Seller obj);
+    void insert(Seller obj);
 	void remove(Seller obj);
 	void deleteById(Integer id);
 	Seller findById(Integer id);
 	List<Seller> findAll(Integer id);
+	List<Seller> findByDepartment(Department id);
 }
