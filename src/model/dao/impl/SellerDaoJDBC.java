@@ -87,12 +87,6 @@ public class SellerDaoJDBC implements SellerDao{
 	}
 
 	@Override
-	public void remove(Seller obj) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
 	public void deleteById(Integer id) {
 		PreparedStatement st = null;
 		
